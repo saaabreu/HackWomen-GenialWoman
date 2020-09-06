@@ -54,3 +54,74 @@ body {
     cursor: pointer;
     outline: none;
 }
+
+.btn-rosa button {
+    background: #EC615B;
+}
+
+/* PRODUTOS */
+
+.search {
+    margin: 50px 140px 0 140px;
+}
+
+.search label{
+    display: none;
+}
+
+.search input {
+    box-sizing: border-box;
+    width: 520px;
+    height: 50px;
+    border: none;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.14), 5px 3px 14px rgba(0, 0, 0, 0.12), 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background: none;
+    font-size: 14px;
+    padding: 10px;
+    outline: none;
+    float: left;
+
+}
+
+.search button {
+    background: #EC615B;
+    border: none;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.14), 5px 3px 14px rgba(0, 0, 0, 0.12), 5px 5px 5px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    width: 160px;
+    height: 50px;
+    padding: 8px 0px;
+    color: #FFF;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.produtos-item ul li {
+    text-align: center;
+    margin: 35px 0 0 30px;
+}
+
+
+.produtos-item img {
+    width: 252px;
+    height: 200px;
+}
+
+/* DESTAQUES */
+
+.destaque {
+    text-align: center;
+}
+
+.destaque h1 {
+    padding: 60px 30px;
+    text-align: left;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.destaque img {
+    width: 350px;
+    height: 300px;
+}
