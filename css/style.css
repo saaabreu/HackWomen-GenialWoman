@@ -28,7 +28,8 @@ body {
     text-align: justify;
 }
 
-/* INTRO CADASTRO*/
+/* INTRO CAD */
+
 .intro-cad {
     margin: 60px auto;
     text-align: center;
@@ -112,12 +113,14 @@ body {
 
 .destaque {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .destaque h1 {
     padding: 60px 30px;
     text-align: left;
-    font-size: 34px;
+    color: #EC615B;
+    font-size: 26px;
     font-weight: bold;
 }
 
@@ -125,3 +128,48 @@ body {
     width: 350px;
     height: 300px;
 }
+
+/* CADASTRO */
+
+.form h1 {
+    font-size: 26px;
+    color: #EC615B;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+
+.form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    border: none;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.14), 5px 3px 14px rgba(0, 0, 0, 0.12), 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)), #FEF8F8;
+    font-size: 14px;
+    padding: 10px;
+    outline: none;
+
+}
+
+.form-produto textarea {
+    width: 940px;
+    height: 100px;
+}
+
+.form button {
+    background: #EC615B;
+    border: none;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.14), 5px 3px 14px rgba(0, 0, 0, 0.12), 5px 5px 5px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    height: 50px;
+    padding: 8px 0px;
+    color: #FFF;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 40px;
+}
+
